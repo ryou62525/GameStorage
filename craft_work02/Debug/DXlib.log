@@ -1,0 +1,13 @@
+﻿2016/01/06 10:57:46 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\りょう\Downloads\Desktop\DXlib\DXlib.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\りょう\Downloads\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\りょう\Downloads\Desktop\DXlib\Debug\DXlib.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\りょう\Downloads\DxLib_VC\プロジェクトに追加すべきファイル_VC用" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\りょう\Downloads\Desktop\DXlib\Debug\DXlib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\りょう\Downloads\Desktop\DXlib\Debug\DXlib.lib" /MACHINE:X86 Debug\main.obj
+         DXlib.vcxproj -> C:\Users\りょう\Downloads\Desktop\DXlib\Debug\DXlib.exe
+     1>プロジェクト "C:\Users\りょう\Downloads\Desktop\DXlib\DXlib.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.06
