@@ -154,6 +154,15 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\component\common.h" />
+    <ClInclude Include="src\scene\gameMain.h" />
+    <ClInclude Include="src\scene\gameManager.h" />
+    <ClInclude Include="src\scene\result.h" />
+    <ClInclude Include="src\scene\sceneInterface.h" />
+    <ClInclude Include="src\scene\sceneManager.h" />
+    <ClInclude Include="src\scene\title.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
