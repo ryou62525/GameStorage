@@ -24,14 +24,19 @@
     <ClInclude Include="src\component\function.h" />
     <ClInclude Include="src\scene\gameMain.h" />
     <ClInclude Include="src\scene\gameManager.h" />
+    <ClInclude Include="src\scene\menu.h" />
     <ClInclude Include="src\scene\result.h" />
     <ClInclude Include="src\scene\sceneInterface.h" />
     <ClInclude Include="src\scene\sceneManager.h" />
     <ClInclude Include="src\scene\title.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="src\component\function.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\scene\gameMain.cpp" />
+    <ClCompile Include="src\scene\menu.cpp" />
+    <ClCompile Include="src\scene\result.cpp" />
+    <ClCompile Include="src\scene\sceneManager.cpp" />
     <ClCompile Include="src\scene\title.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

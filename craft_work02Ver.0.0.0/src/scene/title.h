@@ -2,12 +2,9 @@
 #include "sceneInterface.h"
 
 
-
-class Title : SceneInterface
+class Title : public SceneInterface
 {
 protected:
-
-	unsigned int color;
 
 	bool isChange;
 

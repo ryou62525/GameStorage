@@ -17,13 +17,19 @@ protected:
 
 	tagFLOAT2 pos;
 	tagFLOAT2 size;
+
+	unsigned int fontColor;
 	
 	SceneID sceneID;
-	bool is_end;
+	bool isEnd;
 
 public:
 
-	SceneInterface() { pos.u = 0, pos.v = 0; }
+	SceneInterface() 
+	{
+		pos.u = 0, pos.v = 0;
+		fontColor = GetColor(255, 255, 255);
+	}
 
 	virtual void Update() = 0;
 	virtual void Draw() = 0;

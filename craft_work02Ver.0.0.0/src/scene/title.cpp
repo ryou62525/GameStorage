@@ -2,8 +2,8 @@
 
 Title::Title()
 {
-	color = GetColor(255, 255, 255);
 	isChange = FALSE;
+	isEnd = FALSE;
 }
 
 Title::~Title()
@@ -14,15 +14,22 @@ Title::~Title()
 void Title::Update()
 {
 
-	//if(isPresskey(KEY_INPUT_))
+	if (isPresskey(KEY_INPUT_SPACE))
+	{
+		isEnd = TRUE;
+	}
 }
 
 void Title::Draw()
 {
-	DrawString(pos.u, pos.v, "タイトル", color);
+	DrawString(pos.u, pos.v, "タイトル", fontColor);
 }
 
 int Title::SceneEnd()
 {
-	return 0;
+	if (isEnd == TRUE)
+	{
+		return (int)SceneID::MENU;
+	}
+	return (int)SceneID::TITLE;
 }
