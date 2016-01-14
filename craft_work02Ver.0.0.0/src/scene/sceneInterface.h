@@ -13,6 +13,8 @@ enum class SceneID
 
 class SceneInterface
 {
+protected:
+
 	tagFLOAT2 pos;
 	tagFLOAT2 size;
 	
@@ -20,6 +22,8 @@ class SceneInterface
 	bool is_end;
 
 public:
+
+	SceneInterface() { pos.u = 0, pos.v = 0; }
 
 	virtual void Update() = 0;
 	virtual void Draw() = 0;

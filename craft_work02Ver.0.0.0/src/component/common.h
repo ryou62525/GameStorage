@@ -1,3 +1,8 @@
 #pragma once
+#include "app.h"
 
-#include "DxLib.h"
+enum class Window
+{
+	WIDTH = 640,
+	HEIGHT = 480
+};
